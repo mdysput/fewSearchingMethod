@@ -9,6 +9,9 @@ public class Main {
         if(liczba != -1){
             System.out.println(liczba);
         }
+        else{
+            System.out.println("Cant find number");
+        }
     }
 
     private static int binarySearch(int[] tab, int find){
